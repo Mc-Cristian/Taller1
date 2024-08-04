@@ -8,7 +8,6 @@ export const Inicio = () => {
 
   const handleLogin = () => {
     console.log('Iniciar sesión');
-    // Aquí puedes agregar la lógica para manejar el inicio de sesión
   };
 
   return (
@@ -67,7 +66,7 @@ const styles = StyleSheet.create({
     marginBottom: 30,
   },
   container: {
-    backgroundColor: '#A9DFBF', // Fondo verde claro
+    backgroundColor: '#A9DFBF', 
     flex: 1,
     justifyContent: 'center',
     padding: 20,
@@ -80,16 +79,16 @@ const styles = StyleSheet.create({
     shadowOffset: { width: 0, height: 2 },
     shadowOpacity: 0.1,
     shadowRadius: 8,
-    elevation: 5, // Esto añade sombra en dispositivos Android
+    elevation: 5, 
   },
   Container2: {
     marginBottom: 20,
   },
   input: {
     height: 50,
-    borderColor: '#000000', // Color del borde
+    borderColor: '#000000', 
     borderWidth: 1,
-    borderRadius: 25, // Bordes redondeados
+    borderRadius: 25, 
     paddingHorizontal: 15,
     backgroundColor: '#FFFFFF',
     fontSize: 16,
@@ -101,15 +100,15 @@ const styles = StyleSheet.create({
     color: '#2C3E50',
   },
   button: {
-    backgroundColor: '#3498DB', // Color azul del botón
+    backgroundColor: '#3498DB', 
     paddingVertical: 15,
-    borderRadius: 25, // Bordes redondeados del botón
+    borderRadius: 25, 
     alignItems: 'center',
   
   
   },
   buttonText: {
-    color: '#FFFFFF', // Texto blanco del botón
+    color: '#FFFFFF',
     fontSize: 18,
     fontWeight: 'bold',
   },
